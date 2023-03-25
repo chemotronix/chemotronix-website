@@ -4,6 +4,7 @@ import { useRef,useState } from "react";
 import ContactSection from "../components/ContactSection";
 import Hero from "../components/Hero";
 import PartnerSection from "../components/PartnerSection";
+import Solutions from "../components/Solutions"
 import Navbar from "../components/Navbar";
 import QuoteSection from "../components/QuoteSection";
 import TeamSection from "../components/TeamSection";
@@ -44,8 +45,8 @@ export default function Home() {
       >
           <Hero />
           <QuoteSection />
+          <Solutions/>
           <ThirdSection />
-          <TeamSection />
           <PartnerSection/>
           <ContactSection />
       </main>

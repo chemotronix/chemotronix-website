@@ -10,8 +10,13 @@ import { publicProvider } from "wagmi/providers/public";
 import { ApolloProvider } from "@apollo/client";
 import client from "../apollo-client";
 import "../styles/globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
+
 
 const infuraId = process.env.NEXT_PUBLIC_INFURA_ID;
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import HeroPic from "../images/heropic.png";
+import HeroPic from "../images/hero.png";
+import Q2 from "../images/2.png";
 import HeroGradient from "../images/herograd.png";
 import HeroGradientMobile from "../images/mobilegrad.png";
 import Rectangle from "../images/Rectangle.png";
@@ -27,26 +28,26 @@ function Hero() {
           {" "}
           <Image src={Rectangle} />
         </div>
-        <div className="flex items-center justify-between mx-auto w-[80%] mb-10">
+        <div className="flex flex-wrap lg:flex-nowrap items-center justify-between mx-auto w-[80%] mb-10">
           <motion.div
             initial={{ opacity: 0, y: -40, x: -40 }}
             whileInView={{ opacity: 1, y: 0, x: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             className="max-w-xl z-30"
           >
-            <h2 className="md:text-7xl text-4xl font-bold">
+            {/* <h2 className="md:text-7xl text-4xl font-bold">
               Blockchain HR{" "}
               <span className="text-[#008036]">Software Solutions</span>
               <span className="text-[#E7E400]">.</span>
-            </h2>
-            <p>
-              Bridging the gap to reducing greenhouse gas emissions using IoT
-              and BlockChain to acheiving net zero by 2050
+            </h2> */}
+            <p className="text-[17px] lg:text-[20px]">
+            Developing Clean energy technologies and digital solutions to ensure net zero emissions
             </p>
+
             <div className="pt-7 h-3 w-full"></div>
             <button
                 onClick={() => router.push("/signedIn")}
-                className="bg-[#008036] text-white rounded-md py-2 px-5   btn-primary border-none"
+                className="bg-[#008036] text-white rounded-md py-2 px-5 btn-primary border-none"
               >
                 Get started
               </button>
@@ -57,13 +58,14 @@ function Hero() {
             initial={{ opacity: 0, x: 90 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="md:block hidden"
+            className="flex flex-wrap"
           >
-            <Image src={HeroPic} />
+            <Image src={Q2} />
+           
           </motion.div>
         </div>
         <div className="flex items-center justify-center md:flex-row flex-col  mx-auto -mb-10  w-[80%]">
-          <HeroCard number={"2022"} text="Founded" />
+          <HeroCard number={"2021"} text="Founded" />
         </div>
       </div>
       <input type="checkbox" id="my-modal-4" className="modal-toggle" />
