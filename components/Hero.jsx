@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import HeroPic from "../images/hero.png";
-import Q2 from "../images/2.png";
 import HeroGradient from "../images/herograd.png";
 import HeroGradientMobile from "../images/mobilegrad.png";
 import Rectangle from "../images/Rectangle.png";
@@ -35,11 +34,6 @@ function Hero() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="max-w-xl z-30"
           >
-            {/* <h2 className="md:text-7xl text-4xl font-bold">
-              Blockchain HR{" "}
-              <span className="text-[#008036]">Software Solutions</span>
-              <span className="text-[#E7E400]">.</span>
-            </h2> */}
             <p className="text-[17px] lg:text-[20px]">
             Developing Clean energy technologies and digital solutions to ensure net zero emissions
             </p>
@@ -60,11 +54,11 @@ function Hero() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="flex flex-wrap"
           >
-            <Image src={Q2} />
+            <Image src={HeroPic} />
            
           </motion.div>
         </div>
-        <div className="flex items-center justify-center md:flex-row flex-col  mx-auto -mb-10  w-[80%]">
+        <div className="flex items-center justify-center md:flex-row flex-col  mx-auto  w-[80%]">
           <HeroCard number={"2021"} text="Founded" />
         </div>
       </div>

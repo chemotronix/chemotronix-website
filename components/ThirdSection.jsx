@@ -1,8 +1,8 @@
 import React from "react";
 import Rectangle from "../images/Rectangle.png";
 import Image from "next/image";
-import ThirdSecBg from "../images/Vector (3).png";
-import CardGradient from "../images/Vector (5).png";
+import eco from "../images/eco.png";
+import block from "../images/block.png";
 import blockchain from "../images/blockchain.png";
 import ai from "../images/ai.png";
 import cleanEnergy from "../images/clean-energy.png";
@@ -53,13 +53,16 @@ function ThirdSection({ aboutRef }) {
             energy through real time monitoring and visualizations.
           </p>
         </div>
-        <div className="flex items-center justify-between mt-5 mb-3">
+        <Image src={eco} />
+      <Image src={block} />
+      </div>
+      
+      <div className="flex items-center justify-evenly w-[80%] mx-auto mt-5 mb-3">
             <Image src={ai} />
             <Image src={iot} />
             <Image src={blockchain} />
             <Image src={cleanEnergy} />
           </div>
-      </div>
     </div>
   );
 }
