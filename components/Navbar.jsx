@@ -38,7 +38,7 @@ function Navbar({signedIn}) {
                 <a>About us</a>
               </li>
               <li className="active:!bg-primary">
-                <Link href={"/technology"}>Technology</Link>
+                <Link href="#">Technology</Link>
               </li>
             </ul>
           </li>
@@ -166,7 +166,7 @@ function Navbar({signedIn}) {
                 <a>About us</a>
               </li>
               <li className="active:!bg-primary">
-                <Link href="/technology">Technology</Link>
+                <Link href="#">Technology</Link>
               </li>
             </ul>
           </li>

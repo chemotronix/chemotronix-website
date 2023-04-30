@@ -7,7 +7,7 @@ import PartnerSection from "../components/PartnerSection";
 import Solutions from "../components/Solutions"
 import Navbar from "../components/Navbar";
 import QuoteSection from "../components/QuoteSection";
-import TeamSection from "../components/TeamSection";
+import LatestTweets from '../components/News';
 import ThirdSection from "../components/ThirdSection";
 import DefaultLayout from "../layouts/DefaultLayout";
 import { AnimatePresence, AnimateSharedLayout, motion } from "framer-motion";
@@ -47,6 +47,7 @@ export default function Home() {
           <QuoteSection />
           <Solutions/>
           <ThirdSection />
+          <LatestTweets />
           <PartnerSection/>
           <ContactSection />
       </main>
