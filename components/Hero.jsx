@@ -40,7 +40,7 @@ function Hero() {
 
             <div className="pt-7 h-3 w-full"></div>
             <button
-                onClick={() => router.push("/signedIn")}
+                onClick={() => router.push("/signup")}
                 className="bg-[#008036] text-white rounded-md py-2 px-5 btn-primary border-none"
               >
                 Get started
@@ -95,7 +95,7 @@ function Hero() {
             </div>
             <div className="mx-auto w-[50%]">
               <button
-                onClick={() => router.push("/signedIn")}
+                onClick={() => router.push("/signup")}
                 className="bg-[#008036] text-white rounded-md py-2 px-5   btn-primary border-none"
               >
                 Continue

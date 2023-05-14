@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 
 export const ReadMore = ({ children }) => {
-  const text = children;
+  const text = children || [];
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);

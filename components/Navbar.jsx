@@ -38,7 +38,7 @@ function Navbar({signedIn}) {
                 <a>About us</a>
               </li>
               <li className="active:!bg-primary">
-                <Link href="#">Technology</Link>
+                <Link href="dashboard">Technology</Link>
               </li>
             </ul>
           </li>
