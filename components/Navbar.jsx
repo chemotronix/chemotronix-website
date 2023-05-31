@@ -21,72 +21,18 @@ function Navbar({signedIn}) {
         <ul className=" menu lg:menu-horizontal hidden ">
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary">
-              What we do
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ rotate: "90deg" }}
-              >
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-              </svg>
+            <Link href="technology">Technology</Link>
             </a>
-            <ul className="py-2 px-4 border-t-2 border-primary bg-[#DCFFEB] z-40 w-[164px]">
-              <li className="active:!bg-primary">
-                <a>About us</a>
-              </li>
-              <li className="active:!bg-primary">
-                <Link href="dashboard">Technology</Link>
-              </li>
-            </ul>
           </li>
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary">
-              Industries
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ rotate: "90deg" }}
-              >
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-              </svg>
+            <Link href="#">Industries</Link>
             </a>
-            {/* <ul className="py-2 px-4 border-t-2 border-primary bg-[#DCFFEB] z-40">
-              <li className="active:!bg-primary">
-                <a>About us</a>
-              </li>
-              <li className="active:!bg-primary">
-                <a>Technology</a>
-              </li>
-            </ul> */}
           </li>
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary">
-              Build
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ rotate: "90deg" }}
-              >
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-              </svg>
+            <Link href="#">Build</Link>
             </a>
-            {/* <ul className="py-2 px-1 border-t-2 border-primary bg-[#DCFFEB] z-40 w-[108px]">
-              <li className="active:!bg-primary">
-                <a>About us</a>
-              </li>
-              <li className="active:!bg-primary">
-                <a>Technology</a>
-              </li>
-            </ul> */}
           </li>
           <li className="active:!bg-primary">
           <Link href={"/team"}>Team</Link>
@@ -146,81 +92,18 @@ function Navbar({signedIn}) {
         >
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary border-[#99F5C0] border-b-2">
-              What we do
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ rotate: "90deg" }}
-              >
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-              </svg>
+            <Link href="technology">Technology</Link>
             </a>
-            <ul
-              className="py-2  border-t-2 border-primary bg-[#DCFFEB] z-40 "
-              style={{ position: "initial" }}
-            >
-              <li className="active:!bg-primary">
-                <a>About us</a>
-              </li>
-              <li className="active:!bg-primary">
-                <Link href="#">Technology</Link>
-              </li>
-            </ul>
           </li>
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary border-[#99F5C0] border-b-2">
-              Industries
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ rotate: "90deg" }}
-              >
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-              </svg>
+            <Link href="#">Industries</Link>
             </a>
-            <ul
-              className="py-2  border-t-2 border-primary bg-[#DCFFEB] z-40 "
-              style={{ position: "initial" }}
-            >
-              <li className="active:!bg-primary">
-                <a>About us</a>
-              </li>
-              <li className="active:!bg-primary">
-                <a>Technology</a>
-              </li>
-            </ul>
           </li>
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary border-[#99F5C0] border-b-2">
-              Build
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                style={{ rotate: "90deg" }}
-              >
-                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-              </svg>
+            <Link href="#">Build</Link>
             </a>
-            <ul
-              className="py-2  border-t-2 border-primary bg-[#DCFFEB] z-40 "
-              style={{ position: "initial" }}
-            >
-              <li className="active:!bg-primary">
-                <a>About us</a>
-              </li>
-              <li className="active:!bg-primary">
-                <a>Technology</a>
-              </li>
-            </ul>
           </li>
           <li className="active:!bg-primary">
           <Link href={"/team"}>Team</Link>

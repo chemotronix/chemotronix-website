@@ -29,15 +29,15 @@ function Sidebar({signedIn}) {
             </a>
           </li>
           <li tabIndex="0">
-            <a className="justify-between font-[400] text-[#01431D] text-lg">
+            <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary">
             <FontAwesomeIcon icon={faLaptopFile} />
-            <Link href="dashboard">Devices</Link>
+            <Link href="devices">Devices</Link>
             </a>
           </li>
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary">
             <FontAwesomeIcon icon={faCreditCard} />
-            <Link href="dashboard">Carbon Credits</Link>
+            <Link href="buyCredit">Carbon Credits</Link>
             </a>
           </li>
           <li tabIndex="0">
@@ -49,7 +49,7 @@ function Sidebar({signedIn}) {
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary">
             <FontAwesomeIcon icon={faLocation} />
-            <Link href="dashboard">IoT Location</Link>
+            <Link href="iot">IoT Location</Link>
             </a>
           </li>
           <li tabIndex="0">
@@ -62,7 +62,7 @@ function Sidebar({signedIn}) {
           <li tabIndex="0">
             <a className="justify-between font-[400] text-[#01431D] text-lg active:bg-primary mt-60">
             <FontAwesomeIcon icon={faArrowRightFromBracket} />
-            <Link href="dashboard">Logout</Link>
+            <Link href="signup">Logout</Link>
             </a>
           </li>
         </ul>

@@ -139,7 +139,7 @@ export default function Signup() {
                   
                 <button
                   type="submit"
-                  className="text-white bg-green-700 flex justify-center w-[95%] h-16 mt-10 rounded-md cursor-pointer px-12  items-center"
+                  className="text-white bg-green-700 flex justify-center w-[95%] h-16 mt-10 rounded-md px-12  items-center"
                 > Sign Up
                 </button>
               </form>
