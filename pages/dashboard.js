@@ -13,17 +13,6 @@ import { useState } from "react";
 
 export default function Dashboard() {
 
-  const account = useAccount().address;
-  const balance = useBalance().balance;
-
-
-  // const { data, isError, isLoading } = useBalance({
-  //   address: account,
-  // })
- 
-  // if (isLoading) return <div>Fetching balance…</div>
-  // if (isError) return <div>Error fetching balance</div>
-
   const router = useRouter();
   const { name } = router.query;
 

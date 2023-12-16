@@ -5,6 +5,7 @@ import ContactSection from "../components/ContactSection";
 import Hero from "../components/Hero";
 import PartnerSection from "../components/PartnerSection";
 import Solutions from "../components/Solutions"
+import Newsletter from "../components/Newsletter";
 import Navbar from "../components/Navbar";
 import QuoteSection from "../components/QuoteSection";
 import LatestTweets from '../components/News';
@@ -49,7 +50,8 @@ export default function Home() {
           <ThirdSection />
           <LatestTweets />
           <PartnerSection/>
-          <ContactSection />
+          <Newsletter />
+          {/* <ContactSection /> */}
       </main>
       </DefaultLayout>)}
        </AnimatePresence>

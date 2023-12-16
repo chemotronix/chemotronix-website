@@ -2,6 +2,8 @@ import { AnimatePresence } from "framer-motion";
 import React from "react";
 import LetterCircle from "./LetterCircle";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
+import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 function TeamSection({ teamRef }) {
   const [details, setDetails] = React.useState(
     <AnimatePresence>
@@ -21,7 +23,7 @@ function TeamSection({ teamRef }) {
           <div className="flex justify-center flex-wrap max-w-xl mt-10">
           
             <LetterCircle
-              // image={"/team/festus.jpg"}
+              image={"team/peace.jpg"}
               letter="P"
               color={"#0FE76A"}
               hover={() =>
@@ -41,7 +43,13 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Energy Innovator (Team Lead)
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
+                      
                     </motion.span>
                   </AnimatePresence>
                 )
@@ -63,6 +71,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Energy Innovator (Team Lead)
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -70,7 +83,7 @@ function TeamSection({ teamRef }) {
               }
             />
             <LetterCircle
-            //  image={"/team/jess.png"}
+             image={"team/victor.jpg"}
               letter="V"
               color={"#FEF025"}
               hover={() =>
@@ -90,6 +103,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Hardware Engineer
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -112,6 +130,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Hardware Engineer
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -119,7 +142,7 @@ function TeamSection({ teamRef }) {
               }
             />
             <LetterCircle
-            //  image={"/team/image.jpg"}
+              image={"team/iyanu.jpg"}
               letter="B"
               color={"#029CFF"}
               hover={() =>
@@ -139,6 +162,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           UI/UX designer
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -161,6 +189,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           UI/UX designer
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -168,7 +201,7 @@ function TeamSection({ teamRef }) {
               }
             />
             <LetterCircle
-              // image={"/team/image.jpg"}
+              image={"team/grace.jpg"}
               letter="G"
               color={"#FEF025"}
               hover={() =>
@@ -188,6 +221,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Data scientist
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -210,63 +248,20 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Data scientist
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
                 )
               }
             />
+          
             <LetterCircle
-              // image={"/team/festus.jpg"}
-              letter="I"
-              color={"#029CFF"}
-              hover={() =>
-                setDetails(
-                  <AnimatePresence>
-                    <motion.span
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 0.5, duration: 1.4, type: "spring" }}
-                      exit={{ opacity: 0 }}
-                    >
-                      <span>
-                        <span className="text-2xl font-[400]">
-                          Iyanuoluwa Adebayo
-                        </span>
-                        <br />
-                        <span className="text-lg font-[400]">
-                          Software developer
-                        </span>
-                      </span>
-                    </motion.span>
-                  </AnimatePresence>
-                )
-              }
-              hoverOut={() =>
-                setDetails(
-                  <AnimatePresence>
-                    <motion.span
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 0.5, duration: 0.4 }}
-                      exit={{ opacity: 0 }}
-                    >
-                     <span>
-                        <span className="text-2xl font-[400]">
-                          Iyanuoluwa Adebayo
-                        </span>
-                        <br />
-                        <span className="text-lg font-[400]">
-                          Software developer
-                        </span>
-                      </span>
-                    </motion.span>
-                  </AnimatePresence>
-                )
-              }
-            />
-            <LetterCircle
-              // image={"/team/jess.png"}
+              image={"team/grace.jpg"}
               letter="O"
               color={"#0FE76A"}
               hover={() =>
@@ -286,6 +281,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Blockchain developer
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
@@ -308,6 +308,11 @@ function TeamSection({ teamRef }) {
                         <span className="text-lg font-[400]">
                           Blockchain developer
                         </span>
+                        <div className='flex flex-row py-5'>
+                        <a href="https://www.linkedin.com/company/chemotronix/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize: 30, color: "#0b41ad", marginRight: 10}}></FontAwesomeIcon></a>
+                        <a href="https://github.com/chemotronix/Chemotronix"><FontAwesomeIcon icon={faGithub} style={{fontSize: 30, color: "#000000", marginRight: 10}} /></a>
+                        <a href="https://twitter.com/chemotronix"><FontAwesomeIcon icon={faTwitter} style={{fontSize: 30, color: "#3875f0"}}></FontAwesomeIcon></a>
+                        </div>
                       </span>
                     </motion.span>
                   </AnimatePresence>
