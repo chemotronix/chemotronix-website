@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import co from "../images/co.jpg";
-import hydrogen from "../images/hydrogen.jpg";
+import hydrogen from "../images/solar.png";
 import netzero from "../images/netzero.jpg";
 
 function Solutions() {
@@ -18,7 +18,7 @@ function Solutions() {
           <div className="w-full lg:w-1/3 border-2 border-solid border-green-500 rounded-xl px-8 py-10 max-w-xs mb-10">
           <Image src={hydrogen} className="w-48 rounded"/>  
             <p className="max-w-md text-[15px] text-[#000000] lg:text-[20px] mt-5">
-              Developing Biogas and Hydrogen technologies for the African Populace
+              Developing Biogas, Hydrogen, and Solar technologies for the African Populace
             </p>
           </div>
           <div className="w-full lg:w-1/3 border-2 border-solid border-green-500 px-8 py-10 rounded-xl max-w-xs mb-10">
